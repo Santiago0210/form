@@ -1,0 +1,210 @@
+
+.container__principal {
+    background-color: rgb(202, 217, 230);
+    height: 100vh;   
+}
+.container__secundary{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr ;
+    background: linear-gradient(
+                      to left,
+                      rgb(219, 183, 116),
+                      rgb(94, 155, 94)
+    );
+    
+}
+
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 200ms ease;
+    
+    
+}
+.close-form {
+    transform: scale(0);
+}
+.formuser{
+    background: linear-gradient(
+                      to left,
+                      rgb(219, 183, 116),
+                      rgb(94, 155, 94)
+    );
+    width: 400px;
+    height: 300px;
+    border-radius: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+.user__close{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+
+    grid-column: -2/-1;
+}
+
+.close{
+    display: grid;
+    padding: 0.3em;
+   
+    text-align:center ;
+    color: black;
+    justify-content: center;
+    grid-column: -2/-1;
+    
+}
+
+.close:hover{
+    cursor: pointer;
+    color: red;
+
+} 
+
+.formuser__item {
+    text-align: center;
+    padding: 0.5em;
+    
+    
+}
+.formuser__five {
+    text-align: center;
+    padding: 0.5em;
+    grid-template-rows: repeat( 3, 1fr) ;
+    
+
+}
+
+#birthday {
+    width: 176px;
+    height: 22px;
+    text-align: center;
+    margin: 0.5em;
+    border-radius: 8px;
+    outline: auto gray;
+}
+#last_name {
+    border-radius: 8px;
+    outline: auto gray;
+}
+#first_name {
+    border-radius: 8px;
+    outline: auto gray; 
+}
+#password {
+    border-radius: 8px;
+    outline: auto gray;
+}
+#email {
+    border-radius: 8px;
+    outline: auto gray;
+}
+.btn {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat( 3, 1fr) ;
+}
+.formuser__btn {
+    align-items: center;
+    text-align: center;
+    width: 64px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 2em;
+}
+ .formuser__btn:hover {
+    background-color: rgb(8, 165, 165);
+ }
+
+.item__user{
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    
+    place-content: center;
+    
+
+    max-width: 100%;
+    gap: 5em;
+    padding-top: 4em;
+    padding-left:  4em;
+    
+
+}
+ .article__form {
+    background: linear-gradient(
+                      to left,
+                      rgb(219, 183, 116),
+                      rgb(94, 155, 94)
+    );
+    height: 25vh;
+    width: 300px ;
+    display: grid;
+    align-items: center;
+    border-radius: 1em;
+ }
+ h3 {
+    text-align: center;
+ }
+ .edit__items{
+    display: grid;
+    place-content: center;
+    gap: 0.5em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+ }
+ .edit__btn{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-radius: 1em;
+ }
+ .edit__btn:hover {
+    background-color: rgb(6, 117, 221);
+ }
+ .delete__btn{
+    border-radius: 1em;
+    grid-column: 3/4;
+    padding: 1px;
+    display: grid;
+    place-content: center;
+ }
+ .delete__btn:hover {
+    background-color: rgb(6, 117, 221);
+ }
+ .edit__ul{
+    margin-left: 1em;
+ }
+ .open__btn{
+   grid-column:3/4 ;
+   width: 100px;
+   border-radius: 1em;
+   height: 5vh;
+ }
+ .open__btn:hover{
+    background-color: rgb(6, 117, 221);
+ }
+ h1{
+    display: grid;
+    place-content: center;
+    padding: 0.5em;
+    margin-top: 0.5em;
+ }
+ .opent__form{
+ display: grid;
+ grid-column: 3/4;
+ place-content: center;
+ 
+ }
+ 
