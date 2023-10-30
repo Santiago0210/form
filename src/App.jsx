@@ -12,7 +12,7 @@ function App() {
 
 
 
-  const baseUrl = 'https://users-crud.academlo.tech'
+  const baseUrl = 'https://user-pack-dev-zmrx.3.us-1.fl0.io'
   const [users, getUsers, createUser, deleteUser, updateUser] = useFetch(baseUrl, setCloseForm)
 
   useEffect(() => {
